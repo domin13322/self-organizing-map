@@ -8,11 +8,11 @@ from sklearn.model_selection import train_test_split
 
 # hyperparameters
 def get_hyperparameters():
-    num_rows = 10
-    num_cols = 10
+    num_rows = 14
+    num_cols = 14
     max_m_distance = 4
     max_learning_rate = 0.5
-    max_steps = int(7.5 * 10e2)
+    max_steps = int(7.5 * 10e3)
     return num_rows, num_cols, max_m_distance, max_learning_rate, max_steps
 
 
